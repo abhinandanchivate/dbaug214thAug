@@ -9,7 +9,7 @@ public class ReportGeneratorFacade {
 	public static void generateReport(ReportType reportType, DataSource dataSource, String location) {
 
 		if (reportType == null || dataSource == null) {
-			throw new NullPointerException("NullPointerException");
+			//throw new NullPointerException("NullPointerException");
 		}
 
 		// create report
